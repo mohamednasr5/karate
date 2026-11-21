@@ -1,0 +1,37 @@
+{
+  "name": "أكاديمية الكاراتيه بمركز شباب الأحمدية",
+  "short_name": "كاراتيه الأحمدية",
+  "description": "موقع أكاديمية الكاراتيه بمركز شباب الأحمدية - معلومات عن اللعبة والحركات المهمة بأنيميشن احترافي ونظام الأحزمة والمدربين وشهادات التقدير ولقطات من التدريبات",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#07060d",
+  "theme_color": "#07060d",
+  "categories": ["sports", "education", "fitness"],
+  "icons": [
+    { "src": "assets/images/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/images/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "assets/images/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "الحركات المهمة", "short_name": "الحركات", "url": "./index.html#section-moves" },
+    { "name": "تعلم الكاراتيه", "short_name": "تعلّم", "url": "./index.html#section-learn" },
+    { "name": "نظام الأحزمة", "short_name": "الأحزمة", "url": "./index.html#section-belts" },
+    { "name": "المدربة", "short_name": "المدربة", "url": "./index.html#section-coaches" },
+    { "name": "انضم إلينا", "short_name": "تواصل", "url": "./index.html#section-contact" }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/images/hero-dojo.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "واجهة الأكاديمية"
+    }
+  ]
+}
